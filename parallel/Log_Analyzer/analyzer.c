@@ -20,7 +20,7 @@ static pcre* compile_regex(const char *pattern)
     return re;
 }
 
-// Structure to hold one category’s info
+// Structure to hold one category's info
 typedef struct {
     const char *input_filename;   // e.g. "../authentication.log"
     const char *output_filename;  // e.g. "authentication_issues.log"
@@ -28,7 +28,7 @@ typedef struct {
 } Category;
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  1) “authentication.log” → look for failed-login/anomalous authentication
+//  1) "authentication.log" → look for failed-login/anomalous authentication
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *auth_patterns[] = {
     "(?i)Failed password for",
@@ -40,7 +40,7 @@ static const char *auth_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  2) “critical_errors.log” → kernel/customer-critical errors
+//  2) "critical_errors.log" → kernel/customer-critical errors
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *crit_patterns[] = {
     "(?i)kernel panic",
@@ -54,7 +54,7 @@ static const char *crit_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  3) “failed_services.log” → service‐start failures
+//  3) "failed_services.log" → service‐start failures
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *svc_patterns[] = {
     "(?i)Failed to start",
@@ -67,7 +67,7 @@ static const char *svc_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  4) “hardware_driver.log” → driver/hardware anomalies
+//  4) "hardware_driver.log" → driver/hardware anomalies
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *hw_patterns[] = {
     "(?i)driver .* failed to load",
@@ -81,7 +81,7 @@ static const char *hw_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  5) “mount_fs.log” → filesystem/mount issues
+//  5) "mount_fs.log" → filesystem/mount issues
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *fs_patterns[] = {
     "(?i)mount: .* failed",
@@ -95,7 +95,7 @@ static const char *fs_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  6) “networking.log” → networking/DHCP/DNS anomalies
+//  6) "networking.log" → networking/DHCP/DNS anomalies
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *net_patterns[] = {
     "(?i)Link is down",
@@ -112,7 +112,7 @@ static const char *net_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  7) “startup_timing.log” → slow/problematic units
+//  7) "startup_timing.log" → slow/problematic units
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *start_patterns[] = {
     "(?i)Start request repeated too quickly",
@@ -124,7 +124,7 @@ static const char *start_patterns[] = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  8) “warnings.log” → general warning‐level messages
+//  8) "warnings.log" → general warning‐level messages
 // ─────────────────────────────────────────────────────────────────────────────
 static const char *warn_patterns[] = {
     "(?i)deprecated",
@@ -142,16 +142,16 @@ static const char *warn_patterns[] = {
 
 // Assemble all eight categories into an array of Category structs.
 // Input filenames are prefixed with "../" so they point to the parent folder.
-// Output filenames live in the current folder (Log_Analysis/).
+// Output filenames should now be in the root directory under 'analyzed_logs/'.
 static Category categories[] = {
-    { "../authentication.log",   "authentication_issues.log",   auth_patterns },
-    { "../critical_errors.log",  "critical_errors_issues.log",  crit_patterns },
-    { "../failed_services.log",  "failed_services_issues.log",  svc_patterns },
-    { "../hardware_driver.log",  "hardware_driver_issues.log",  hw_patterns },
-    { "../mount_fs.log",         "mount_fs_issues.log",         fs_patterns },
-    { "../networking.log",       "networking_issues.log",       net_patterns },
-    { "../startup_timing.log",   "startup_issues.log",          start_patterns },
-    { "../warnings.log",         "warnings_issues.log",         warn_patterns }
+    { "../authentication.log",   "../../analyzed_logs/authentication_issues.log",   auth_patterns },
+    { "../critical_errors.log",  "../../analyzed_logs/critical_errors_issues.log",  crit_patterns },
+    { "../failed_services.log",  "../../analyzed_logs/failed_services_issues.log",  svc_patterns },
+    { "../hardware_driver.log",  "../../analyzed_logs/hardware_driver_issues.log",  hw_patterns },
+    { "../mount_fs.log",         "../../analyzed_logs/mount_fs_issues.log",         fs_patterns },
+    { "../networking.log",       "../../analyzed_logs/networking_issues.log",       net_patterns },
+    { "../startup_timing.log",   "../../analyzed_logs/startup_issues.log",          start_patterns },
+    { "../warnings.log",         "../../analyzed_logs/warnings_issues.log",         warn_patterns }
 };
 
 int main(void)
@@ -178,7 +178,7 @@ int main(void)
             continue;  // skip this category
         }
 
-        // 2) Open output “issues” file (current folder)
+        // 2) Open output "issues" file (current folder)
         FILE *fout = fopen(outfile, "w");
         if (!fout) {
             #pragma omp critical
@@ -245,7 +245,8 @@ int main(void)
         perror("Error opening time_taken.txt");
         return EXIT_FAILURE;
     }
-    fprintf(ftime, "Elapsed time: %.6f seconds\n", elapsed);
+    fprintf(ftime, "The time taken to analyze logs in parallel manner is :  %.6f seconds\n", elapsed);
+
     fclose(ftime);
 
     return EXIT_SUCCESS;

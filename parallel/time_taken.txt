@@ -1,0 +1,1 @@
+The time taken to parse logs in parallel manner is :  0.003690 seconds

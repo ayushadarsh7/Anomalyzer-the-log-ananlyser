@@ -1,0 +1,105 @@
+Jun 24 18:16:45 ayush-ubuntu apparmor.systemd[785]: Warning: found usr.sbin.sssd in /etc/apparmor.d/force-complain, forcing complain mode
+Jun 24 18:16:45 ayush-ubuntu apparmor.systemd[785]: Warning from /etc/apparmor.d (/etc/apparmor.d/usr.sbin.sssd line 63): Caching disabled for: 'usr.sbin.sssd' due to force complain
+Jun 24 18:16:46 ayush-ubuntu gnome-session[1434]: gnome-session-binary[1434]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Jun 24 18:16:46 ayush-ubuntu gnome-session-binary[1434]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1488]: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm3/.config/mutter/sessions/10a06ac659af291a26175076920685260800000014340000.ms”: No such file or directory
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86NextElement
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86PreviousElement
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86Sos
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86NavChart
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86FishingChart
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86RadarOverlay
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86SidevuSonar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1790]: > Warning:          Could not resolve keysym XF86NavInfo
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Unsupported maximum keycode 708, clipping.
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86NextElement
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86PreviousElement
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86Sos
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86NavChart
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86FishingChart
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86RadarOverlay
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86SidevuSonar
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Could not resolve keysym XF86NavInfo
+Jun 24 18:16:52 ayush-ubuntu gnome-session[2239]: gnome-session-binary[2239]: WARNING: Desktop file /etc/xdg/autostart/pulseaudio.desktop for application pulseaudio.desktop could not be parsed or references a missing TryExec binary
+Jun 24 18:16:52 ayush-ubuntu gnome-session-binary[2239]: WARNING: Desktop file /etc/xdg/autostart/pulseaudio.desktop for application pulseaudio.desktop could not be parsed or references a missing TryExec binary
+Jun 24 18:16:52 ayush-ubuntu gnome-session[2239]: gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2266: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:52 ayush-ubuntu gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2266: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:52 ayush-ubuntu gnome-session[2239]: gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2283: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:52 ayush-ubuntu gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2283: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:53 ayush-ubuntu gnome-session[2239]: gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2440: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:53 ayush-ubuntu gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2440: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:53 ayush-ubuntu gnome-session[2239]: gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2474: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:53 ayush-ubuntu gnome-session-binary[2239]: GnomeDesktop-WARNING: Could not create transient scope for PID 2474: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2282]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86NextElement
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86PreviousElement
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86Sos
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86NavChart
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86FishingChart
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86RadarOverlay
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86SidevuSonar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2836]: > Warning:          Could not resolve keysym XF86NavInfo
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Unsupported maximum keycode 708, clipping.
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86NextElement
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86PreviousElement
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86Sos
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86NavChart
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86FishingChart
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86RadarOverlay
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86SidevuSonar
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Could not resolve keysym XF86NavInfo
+Jun 24 18:16:55 ayush-ubuntu gnome-shell[2282]: DING: (gjs:2962): Gjs-WARNING **: 18:16:55.660: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+Jun 24 18:16:55 ayush-ubuntu tracker-miner-fs-3[3146]: (tracker-extract-3:3146): GLib-GIO-WARNING **: 18:16:55.932: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)

@@ -1,0 +1,69 @@
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target remote-fs.target - Remote File Systems.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target slices.target - Slice Units.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target snapd.mounts-pre.target - Mounting snaps.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target swap.target - Swaps.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Reached target snapd.mounts.target - Mounted snaps.
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target local-fs.target - Local File Systems.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target network-pre.target - Preparation for Network.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target time-set.target - System Time Set.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target sysinit.target - System Initialization.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target paths.target - Path Units.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target sockets.target - Socket Units.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target basic.target - Basic System.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Reached target getty.target - Login Prompts.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Reached target nss-user-lookup.target - User and Group Name Lookups.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Reached target bluetooth.target - Bluetooth Support.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Reached target sound.target - Sound Card.
+Jun 24 18:16:45 ayush-ubuntu systemd[1]: Reached target network.target - Network.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Reached target paths.target - Paths.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Reached target timers.target - Timers.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Reached target sockets.target - Sockets.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Reached target basic.target - Basic System.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Reached target default.target - Main User Target.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Startup finished in 231ms.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Reached target paths.target - Paths.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Reached target timers.target - Timers.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Reached target sockets.target - Sockets.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Reached target basic.target - Basic System.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Reached target default.target - Main User Target.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Startup finished in 236ms.
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Reached target network-online.target - Network is Online.
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Reached target timers.target - Timer Units.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: Reached target gnome-session-wayland.target - GNOME Wayland Session.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: Reached target org.gnome.Shell.target - GNOME Shell.
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Reached target multi-user.target - Multi-User System.
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Reached target graphical.target - Graphical Interface.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: Reached target graphical-session-pre.target - Session services which should run early before the graphical session is brought up.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: Reached target gnome-session-pre.target - Tasks to be run before GNOME Session starts.
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Startup finished in 3.964s (firmware) + 6.877s (loader) + 1.481s (kernel) + 13.127s (userspace) = 25.451s.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: Reached target gnome-session-manager.target - GNOME Session Manager is ready.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target gnome-session-initialized.target - GNOME Session is initialized.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target gnome-session@ubuntu.target - GNOME Session (session: ubuntu).
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+Jun 24 18:16:53 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+Jun 24 18:16:54 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+Jun 24 18:16:54 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+Jun 24 18:16:54 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+Jun 24 18:16:54 ayush-ubuntu systemd[1984]: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+Jun 24 18:16:54 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+Jun 24 18:16:55 ayush-ubuntu systemd[1984]: Reached target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+Jun 24 18:16:55 ayush-ubuntu systemd[1984]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+Jun 24 18:16:55 ayush-ubuntu systemd[1984]: Reached target gnome-session.target - GNOME Session.
+Jun 24 18:16:55 ayush-ubuntu systemd[1984]: Reached target gnome-session-wayland@ubuntu.target - GNOME Wayland Session (session: ubuntu).
+Jun 24 18:16:55 ayush-ubuntu systemd[1984]: Reached target graphical-session.target - Current graphical user session.
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Reached target shutdown.target - Shutdown.
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Reached target exit.target - Exit the Session.

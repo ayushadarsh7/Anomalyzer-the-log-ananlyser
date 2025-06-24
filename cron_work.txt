@@ -1,0 +1,18 @@
+ayushadarsh7@ayush-ubuntu:~/openmpcore-self/Log_Analysis/llm_part/llm_interpreter$ cd ..
+ayushadarsh7@ayush-ubuntu:~/openmpcore-self/Log_Analysis/llm_part$ nano start_pipeline.sh
+ayushadarsh7@ayush-ubuntu:~/openmpcore-self/Log_Analysis/llm_part$ chmod +x start_pipeline.sh 
+ayushadarsh7@ayush-ubuntu:~/openmpcore-self/Log_Analysis/llm_part$ cd 
+ayushadarsh7@ayush-ubuntu:~$ crontab -e
+no crontab for ayushadarsh7 - using an empty one
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/vim.basic
+  3. /usr/bin/nvim
+  4. /usr/bin/vim.tiny
+  5. /usr/bin/code
+  6. /bin/ed
+
+Choose 1-6 [1]: 1
+crontab: installing new crontab
+

@@ -171,7 +171,8 @@ int main(void) {
         perror("Error opening time_taken.txt");
         return EXIT_FAILURE;
     }
-    fprintf(ftime, "Elapsed time (parallel): %.6f seconds\n", elapsed);
+    fprintf(ftime, "The time taken to parse logs in parallel manner is :  %.6f seconds\n", elapsed);
+
     fclose(ftime);
 
     return EXIT_SUCCESS;

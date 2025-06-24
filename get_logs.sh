@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo journalctl > ~/boot.log
+journalctl -b > boot.log
+echo "boot.log saved (current boot only)"

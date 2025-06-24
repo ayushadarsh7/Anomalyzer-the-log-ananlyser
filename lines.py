@@ -1,4 +1,4 @@
-file_paths = ["boot.log","authentication.log","critical_errors.log","failed_services.log","hardware_driver.log","mount_fs.log","networking.log","startup_timing.log","warnings.log"]
+file_paths = ["boot.log"]
 
 
 

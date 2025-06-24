@@ -1,0 +1,236 @@
+Jun 24 18:16:39 ayush-ubuntu kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4192.62 BogoMIPS (lpj=2096311)
+Jun 24 18:16:39 ayush-ubuntu kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Jun 24 18:16:39 ayush-ubuntu kernel: smpboot: Total of 12 processors activated (50311.46 BogoMIPS)
+Jun 24 18:16:39 ayush-ubuntu kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 24 18:16:39 ayush-ubuntu kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jun 24 18:16:39 ayush-ubuntu kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Jun 24 18:16:39 ayush-ubuntu kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jun 24 18:16:39 ayush-ubuntu kernel: drop_monitor: Initializing network drop monitor service
+Jun 24 18:16:39 ayush-ubuntu kernel: Segment Routing with IPv6
+Jun 24 18:16:39 ayush-ubuntu kernel: In-situ OAM (IOAM) with IPv6
+Jun 24 18:16:39 ayush-ubuntu kernel: IPI shorthand broadcast: enabled
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd 255.4-1ubuntu8.8 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-pcrextend.socket - TPM2 PCR Extension (Varlink) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:39 ayush-ubuntu systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Jun 24 18:16:40 ayush-ubuntu kernel: rtw_8822ce 0000:01:00.0 wlo1: renamed from wlan0
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Jun 24 18:16:40 ayush-ubuntu systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 0 <soc15_common>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 1 <gmc_v9_0>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 2 <vega10_ih>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 3 <psp>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 4 <smu>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 5 <dm>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 6 <gfx_v9_0>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 7 <sdma_v4_0>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 8 <vcn_v2_0>
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] add ip block number 9 <jpeg_v2_0>
+Jun 24 18:16:45 ayush-ubuntu kernel: NET: Registered PF_QIPCRTR protocol family
+Jun 24 18:16:45 ayush-ubuntu kernel: [drm] kiq ring mec 2 pipe 1 q 0
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:44 ayush-ubuntu avahi-daemon[839]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Jun 24 18:16:44 ayush-ubuntu avahi-daemon[839]: New relevant interface lo.IPv6 for mDNS.
+Jun 24 18:16:44 ayush-ubuntu avahi-daemon[839]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Jun 24 18:16:44 ayush-ubuntu avahi-daemon[839]: New relevant interface lo.IPv4 for mDNS.
+Jun 24 18:16:44 ayush-ubuntu avahi-daemon[839]: Network interface enumeration completed.
+Jun 24 18:16:44 ayush-ubuntu avahi-daemon[839]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Jun 24 18:16:44 ayush-ubuntu CRON[901]: (ayushadarsh7) CMD (/home/ayushadarsh7/openmpcore-self/Log_Analysis/llm_part/start_pipeline.sh)
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+Jun 24 18:16:44 ayush-ubuntu bluetoothd[840]: src/plugin.c:plugin_init() System does not support csip plugin
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target network-pre.target - Preparation for Network.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+Jun 24 18:16:44 ayush-ubuntu dbus-daemon[841]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=894 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Jun 24 18:16:43 ayush-ubuntu systemd-resolved[793]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: tpm-udev.path - Handle dynamically added tpm devices was skipped because of an unmet condition check (ConditionVirtualization=container).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: apport-forward.socket - Unix socket for apport crash forwarding was skipped because of an unmet condition check (ConditionVirtualization=container).
+Jun 24 18:16:43 ayush-ubuntu systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionKernelCommandLine=snapd_recovery_mode).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: ssl-cert.service - Generate snakeoil SSL keypair was skipped because of an unmet condition check (ConditionPathExists=!/etc/ssl/private/ssl-cert-snakeoil.key).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: sssd.service - System Security Services Daemon was skipped because no trigger condition checks were met.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Starting NetworkManager.service - Network Manager...
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: alsa-state.service - Manage Sound Card State (restore and store) was skipped because of an unmet condition check (ConditionPathExists=/etc/alsa/state-daemon.conf).
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.2877] NetworkManager (version 1.46.0) is starting... (boot:f3a5efb9-f066-45c9-831a-44be2b61ec44)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.2883] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.2957] manager[0x629d2ecb3950]: monitoring kernel firmware directory '/lib/firmware'.
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.2957] monitoring ifupdown state file '/run/network/ifstate'.
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3879] hostname: hostname: using hostnamed
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3879] hostname: static hostname changed from (none) to "ayush-ubuntu"
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3886] dns-mgr: init: dns=systemd-resolved rc-manager=unmanaged (auto), plugin=systemd-resolved
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3910] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0/ieee80211/phy0/rfkill1) (driver rtw_8822ce)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3914] manager[0x629d2ecb3950]: rfkill: Wi-Fi hardware radio set enabled
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3914] manager[0x629d2ecb3950]: rfkill: WWAN hardware radio set enabled
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3970] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.46.0/libnm-device-plugin-bluetooth.so)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3976] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.46.0/libnm-device-plugin-wwan.so)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.3987] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.46.0/libnm-device-plugin-wifi.so)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4005] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.46.0/libnm-device-plugin-team.so)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4011] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.46.0/libnm-device-plugin-adsl.so)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4014] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4014] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4015] manager: Networking is enabled by state file
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4029] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.46.0/libnm-settings-plugin-ifupdown.so")
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4029] settings: Loaded settings plugin: keyfile (internal)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4029] ifupdown: management mode: unmanaged
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.4031] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Jun 24 18:16:44 ayush-ubuntu systemd[1]: Reloading requested from client PID 1019 ('systemctl') (unit NetworkManager.service)...
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9805] dhcp: init: Using DHCP client 'internal'
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9807] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9815] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9818] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9823] device (lo): Activation: starting connection 'lo' (1e089472-d1b4-48b0-9c44-04a9e98b3f18)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9825] device (wlo1): driver supports Access Point (AP) mode
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9830] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/2)
+Jun 24 18:16:44 ayush-ubuntu NetworkManager[894]: <info>  [1750769204.9832] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9141] failed to open /run/network/ifstate
+Jun 24 18:16:45 ayush-ubuntu systemd[1]: Started NetworkManager.service - Network Manager.
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9148] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jun 24 18:16:45 ayush-ubuntu systemd[1]: Reached target network.target - Network.
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9160] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9161] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9162] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9167] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9175] modem-manager: ModemManager available
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9179] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9180] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9183] device (lo): Activation: successful, device activated.
+Jun 24 18:16:45 ayush-ubuntu systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9567] device (wlo1): supplicant interface state: internal-starting -> disconnected
+Jun 24 18:16:45 ayush-ubuntu NetworkManager[894]: <info>  [1750769205.9568] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Jun 24 18:16:46 ayush-ubuntu systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionUser=!@system).
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Started pipewire.service - PipeWire Multimedia Service.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Started filter-chain.service - PipeWire filter chain daemon.
+Jun 24 18:16:46 ayush-ubuntu systemd[1344]: Started pipewire-pulse.service - PipeWire PulseAudio.
+Jun 24 18:16:46 ayush-ubuntu dbus-daemon[841]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.28' (uid=120 pid=1386 comm="/usr/bin/pipewire" label="unconfined")
+Jun 24 18:16:46 ayush-ubuntu pipewire[1386]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jun 24 18:16:46 ayush-ubuntu wireplumber[1389]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+Jun 24 18:16:48 ayush-ubuntu NetworkManager[894]: <info>  [1750769208.1518] agent-manager: agent[58e9c41fe6d13959,:1.36/org.gnome.Shell.NetworkAgent/120]: agent registered
+Jun 24 18:16:48 ayush-ubuntu org.gnome.Shell.desktop[1850]: > Warning:          Unsupported maximum keycode 708, clipping.
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8277] policy: auto-activating connection 'iitmwifi' (0be4a6d7-733c-473b-a6fb-b1f9f025cf1f)
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8281] device (wlo1): Activation: starting connection 'iitmwifi' (0be4a6d7-733c-473b-a6fb-b1f9f025cf1f)
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8281] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8283] manager: NetworkManager state is now CONNECTING
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8284] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8287] device (wlo1): Activation: (wifi) access point 'iitmwifi' has security, but secrets are required.
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8288] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8295] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8297] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8300] device (wlo1): Activation: (wifi) connection 'iitmwifi' has security, and secrets exist.  No new secrets needed.
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'ssid' value 'iitmwifi'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'scan_ssid' value '1'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'bgscan' value 'simple:30:-65:300'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'key_mgmt' value 'WPA-EAP FT-EAP FT-EAP-SHA384 WPA-EAP-SHA256'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'auth_alg' value 'OPEN'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'password' value '<hidden>'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'eap' value 'TTLS'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'fragment_size' value '1266'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8301] Config: added 'phase2' value 'auth=MSCHAPV2'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8302] Config: added 'identity' value 'MM23B002'
+Jun 24 18:16:49 ayush-ubuntu NetworkManager[894]: <info>  [1750769209.8302] Config: added 'proactive_key_caching' value '1'
+Jun 24 18:16:50 ayush-ubuntu NetworkManager[894]: <info>  [1750769210.2657] device (wlo1): supplicant interface state: disconnected -> authenticating
+Jun 24 18:16:50 ayush-ubuntu NetworkManager[894]: <info>  [1750769210.3011] device (wlo1): supplicant interface state: authenticating -> disconnected
+Jun 24 18:16:50 ayush-ubuntu NetworkManager[894]: <info>  [1750769210.6015] device (wlo1): supplicant interface state: disconnected -> scanning
+Jun 24 18:16:51 ayush-ubuntu NetworkManager[894]: <info>  [1750769211.7854] device (wlo1): supplicant interface state: scanning -> authenticating
+Jun 24 18:16:51 ayush-ubuntu NetworkManager[894]: <info>  [1750769211.7908] device (wlo1): supplicant interface state: authenticating -> associating
+Jun 24 18:16:51 ayush-ubuntu NetworkManager[894]: <info>  [1750769211.7976] device (wlo1): supplicant interface state: associating -> associated
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionPathExists=!/home/ayushadarsh7/.config/gnome-initial-setup-done).
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Started pipewire.service - PipeWire Multimedia Service.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Started filter-chain.service - PipeWire filter chain daemon.
+Jun 24 18:16:51 ayush-ubuntu systemd[1984]: Started pipewire-pulse.service - PipeWire PulseAudio.
+Jun 24 18:16:52 ayush-ubuntu pipewire[2003]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Jun 24 18:16:52 ayush-ubuntu wireplumber[2008]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+Jun 24 18:16:52 ayush-ubuntu wpa_supplicant[895]: wlo1: WPA: Key negotiation completed with 38:17:c3:c5:87:b0 [PTK=CCMP GTK=TKIP]
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.2255] device (wlo1): supplicant interface state: associated -> completed
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.2256] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "iitmwifi"
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.2258] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.2267] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Jun 24 18:16:52 ayush-ubuntu avahi-daemon[839]: Joining mDNS multicast group on interface wlo1.IPv6 with address fe80::c399:13a0:b467:b218.
+Jun 24 18:16:52 ayush-ubuntu avahi-daemon[839]: New relevant interface wlo1.IPv6 for mDNS.
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.2717] dhcp4 (wlo1): state changed new lease, address=10.42.187.107, acd pending
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4019] dhcp4 (wlo1): state changed new lease, address=10.42.187.107
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4023] policy: set 'iitmwifi' (wlo1) as default for IPv4 routing and DNS
+Jun 24 18:16:52 ayush-ubuntu avahi-daemon[839]: Joining mDNS multicast group on interface wlo1.IPv4 with address 10.42.187.107.
+Jun 24 18:16:52 ayush-ubuntu avahi-daemon[839]: New relevant interface wlo1.IPv4 for mDNS.
+Jun 24 18:16:52 ayush-ubuntu avahi-daemon[839]: Registering new address record for 10.42.187.107 on wlo1.IPv4.
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4075] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4092] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4094] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4098] manager: NetworkManager state is now CONNECTED_SITE
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4104] device (wlo1): Activation: successful, device activated.
+Jun 24 18:16:52 ayush-ubuntu NetworkManager[894]: <info>  [1750769212.4111] manager: startup complete
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: Reached target network-online.target - Network is Online.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: update-notifier-crash.path - Path trigger for Apport crash notifications was skipped because of an unmet condition check (ConditionPathExists=!/var/lib/apport/autoreport).
+Jun 24 18:16:52 ayush-ubuntu systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+Jun 24 18:16:52 ayush-ubuntu systemd[1984]: org.gnome.Shell@x11.service - GNOME Shell on X11 was skipped because of an unmet condition check (ConditionEnvironment=XDG_SESSION_TYPE=x11).
+Jun 24 18:16:53 ayush-ubuntu NetworkManager[894]: <info>  [1750769213.7376] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 24 18:16:54 ayush-ubuntu NetworkManager[894]: <info>  [1750769214.1674] agent-manager: agent[230383148105f0e1,:1.77/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jun 24 18:16:54 ayush-ubuntu systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jun 24 18:16:54 ayush-ubuntu gnome-shell[2858]: > Warning:          Unsupported maximum keycode 708, clipping.
+Jun 24 18:16:55 ayush-ubuntu systemd[1984]: gnome-initial-setup-first-login.service - GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/ayushadarsh7/.config/gnome-initial-setup-done).
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Stopping filter-chain.service - PipeWire filter chain daemon...
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Stopped filter-chain.service - PipeWire filter chain daemon.
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+Jun 24 18:17:05 ayush-ubuntu wireplumber[1389]: disconnected from pipewire
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Stopping pipewire.service - PipeWire Multimedia Service...
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Stopped pipewire.service - PipeWire Multimedia Service.
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+Jun 24 18:17:05 ayush-ubuntu systemd[1344]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
