@@ -15,11 +15,7 @@ It is triggered on every system boot and produces a human-readable summary of bo
 
 ├── get_logs.sh # Extracts current boot log using journalctl
 ├── parallel/ # OpenMP+PCRE parallel C log analyzers & parsers
-│   
 ├── llm_interpreter/ # Python LLM-based explanation engine
-│   ├── interpreter.py
-│   ├── requirements.txt
-│   └── run.sh
 ├── final_results.txt # Human-readable summary output
 ├── start_pipeline.sh # Master script (runs all components)
 └── README.md
